@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #679997;
+
+
+    .header-search {
+        width: 100%;
+        padding: 6px 5px;
+        background: #F1F3F4;
+        border: 0px;
+        outline: 0px;
+        color: #679997;
+        border-radius: 5px;
+        height: 50px;
+        /* border: 1px solid #679997; */  
+    }
+
+    img {
+        display: inline-block;
+    }
+
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top: 7.2%;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background: #F9FAFA;
+
+    
+    .nav-btn {
+        background: #679997;
+        color: #fff;
+    }
+}
+
+#app {
+    display: block;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+
